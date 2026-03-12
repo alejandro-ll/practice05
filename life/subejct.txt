@@ -20,28 +20,28 @@ tablero e imprimir el resultado en stdout (cada célula viva estará representad
 el carácter 'O' y cada célula muerta estará representada por un espacio)
 Cada célula fuera del array se considerará muerta.
 Ejemplo:
-$> echo 'sdxddssaaww' | ./a.out 5 5 0 | cat -e
+$> echo 'sdxddssaaww' | ./life4 5 5 0 | cat -e
 $
 OOO $
 O O $
 OOO $
 $
-$> echo 'sdxssdswdxddddsxaadwxwdxwaa' | ./a.out 10 6 0 | cat -e
+$> echo 'sdxssdswdxddddsxaadwxwdxwaa' | ./life4 10 6 0 | cat -e
 $
 O OOO $
 O O $
 OOO O $
 O OOO $
 $
-$> echo 'dxss' | ./a.out 3 3 0 | cat -e
+$> echo 'dxss' | ./life4 3 3 0 | cat -e
 O $
 O $
 O $
-$> echo 'dxss' | ./a.out 3 3 1 | cat -e
+$> echo 'dxss' | ./life4 3 3 1 | cat -e
 $
 OOO$
 $
-$> echo 'dxss' | ./a.out 3 3 2 | cat -e
+$> echo 'dxss' | ./life4 3 3 2 | cat -e
 O $
 O $
 O $
@@ -73,28 +73,28 @@ board and print the result in stdout (each cell alive will be represented by
 the character 'O' and each dead cell will be represented by a space)
 each cell outside of the array will be considered dead
 Example:
-$> echo 'sdxddssaaww' | ./a.out 5 5 0 | cat -e
+$> echo 'sdxddssaaww' | ./life4 5 5 0 | cat -e
 $
 OOO $
 O O $
 OOO $
 $
-$> echo 'sdxssdswdxddddsxaadwxwdxwaa' | ./a.out 10 6 0 | cat -e
+$> echo 'sdxssdswdxddddsxaadwxwdxwaa' | ./life4 10 6 0 | cat -e
 $
 O OOO $
 O O $
 OOO O $
 O OOO $
 $
-$> echo 'dxss' | ./a.out 3 3 0 | cat -e
+$> echo 'dxss' | ./life4 3 3 0 | cat -e
 O $
 O $
 O $
-$> echo 'dxss' | ./a.out 3 3 1 | cat -e
+$> echo 'dxss' | ./life4 3 3 1 | cat -e
 $
 OOO$
 $
-$> echo 'dxss' | ./a.out 3 3 2 | cat -e
+$> echo 'dxss' | ./life4 3 3 2 | cat -e
 O $
 O $
 O $
